@@ -39,8 +39,11 @@ ul li {
   color: #404bbf;
 }
 
-.address-list .link {
+.address-list {
   font-style: normal;
+}
+
+.address-list .link {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
