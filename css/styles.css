@@ -1,6 +1,6 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -13,17 +13,17 @@ ul li {
 }
 
 .logo-link {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.logo-link-first {
-  color: #4d5ae5;
+.page-nav .logo-link-last {
+  color: #2e2f42;
 }
 
 .page-nav .link {
@@ -34,11 +34,22 @@ ul li {
   letter-spacing: 0.02em;
 }
 
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #404bbf;
+}
+
 .address-list .link {
+  font-style: normal;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+  color: #404bbf;
 }
 
 .hero {
@@ -55,6 +66,7 @@ ul li {
 }
 
 .hero .button {
+  font-family: 'Roboto', sans-serif;
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
@@ -64,30 +76,41 @@ ul li {
   cursor: pointer;
 }
 
+.hero .button:hover,
+.hero .button:focus {
+  background-color: #404bbf;
+}
+
 .features-list .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .features-list .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .team {
   background-color: #f4f4fd;
 }
 
+.team-list .team-li {
+  background-color: #ffffff;
+}
+
 .team-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .team-list .title {
@@ -95,21 +118,23 @@ ul li {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .team-list .text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .portfolio-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .portfolio-list .title {
@@ -117,6 +142,7 @@ ul li {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-list .text {
@@ -126,11 +152,11 @@ ul li {
   color: #434455;
 }
 
-footer {
+.page-footer {
   background-color: #2e2f42;
 }
 
-.logo-link-last {
+.page-footer .logo-link-last {
   color: #f4f4fd;
 }
 
